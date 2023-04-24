@@ -24,7 +24,7 @@ function Checkout({subTotal}) {
     amount={subTotal * 100}
     shippingAddress
     token={tokenHandler}
-    stripeKey="pk_test_51KiwMmSEYT4FQcHRoKwfNAPB0fuO0je94q1Jy8Ih0wv2xJiQMTBVHOkQhlVzdqZzAc6I3F4jR053Zg5ep6o6v2uY00XDaR6AaR"
+    stripeKey="pk_test_51MhZiESBDlmZsMX0XMvySG7nEhx95x1TUzY1yfXTGisfNHAjrQr6myvlIJhAyFcztTmC2hbN5A3IDLFSS9tJ3ZnQ00r7pvlYc7"
     currency = "INR">
         <Button>Pay Now</Button>
         </StripeCheckout>
